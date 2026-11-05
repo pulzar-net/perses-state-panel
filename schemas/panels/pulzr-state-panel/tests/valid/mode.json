@@ -1,0 +1,13 @@
+{
+  "kind": "PulzrStatePanel",
+  "spec": {
+    "states": [
+      { "value": 0, "label": "Off" },
+      { "value": 1, "label": "Auto", "color": "success" },
+      { "value": 2, "label": "Hold", "color": "#e8a33d" },
+      { "value": true, "label": "On", "color": "success" }
+    ],
+    "staleAfter": 900,
+    "labels": { "do.heater": "Heater" }
+  }
+}

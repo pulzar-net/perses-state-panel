@@ -1,0 +1,9 @@
+{
+  "kind": "PulzrStatePanel",
+  "spec": {
+    "bits": [
+      { "bit": 0, "label": "Door open", "color": "warning" },
+      { "bit": 3, "label": "Sensor fault", "color": "error" }
+    ]
+  }
+}

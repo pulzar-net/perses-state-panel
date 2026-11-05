@@ -1,0 +1,1 @@
+{ "kind": "PulzrStatePanel", "spec": { "states": [{ "value": 1, "label": "On", "color": "green" }] } }
