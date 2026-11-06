@@ -113,5 +113,8 @@
     "type": "git",
     "url": "git+https://github.com/pulzar-net/perses-state-panel.git"
   },
-  "homepage": "https://github.com/pulzar-net/perses-state-panel#readme"
+  "homepage": "https://github.com/pulzar-net/perses-state-panel#readme",
+  "publishConfig": {
+    "access": "public"
+  }
 }
