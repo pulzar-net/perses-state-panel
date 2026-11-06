@@ -1,3 +1,3 @@
-module github.com/pulzr/perses-state-panel
+module github.com/pulzar-net/perses-state-panel
 
 go 1.27.1
