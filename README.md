@@ -1,5 +1,10 @@
 # State panel for Perses
 
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://github.com/pulzar-net/perses-state-panel/releases/latest/download/preview-dark.png">
+  <img alt="The PulzrStatePanel: equipment as On, Off and Hold badges with how long each has held" src="https://github.com/pulzar-net/perses-state-panel/releases/latest/download/preview-light.png">
+</picture>
+
 `PulzrStatePanel` shows what a value means now and since when: a controller's mode ("Hold, for 6 hours"), a list of equipment as On and Off, or a bitmask read as the flags that are set ("Door open", "Sensor fault"; "None" when clear).
 
 ```yaml

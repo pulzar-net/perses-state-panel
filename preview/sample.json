@@ -1,0 +1,125 @@
+{
+ "$schema": "https://raw.githubusercontent.com/pulzar-net/perses-panel-preview/main/sample.schema.json",
+ "timeRange": {
+  "start": "2026-01-14T00:00:00Z",
+  "end": "2026-01-15T00:00:00Z"
+ },
+ "panel": {
+  "kind": "Panel",
+  "spec": {
+   "display": {
+    "name": "Equipment"
+   },
+   "plugin": {
+    "kind": "PulzrStatePanel",
+    "spec": {
+     "states": [
+      {
+       "value": 0,
+       "label": "Off"
+      },
+      {
+       "value": 1,
+       "label": "On",
+       "color": "success"
+      },
+      {
+       "value": 2,
+       "label": "Hold",
+       "color": "warning"
+      }
+     ],
+     "labels": {
+      "compressor": "Compressor",
+      "fan": "Evaporator fan",
+      "heater": "Defrost heater",
+      "mode": "Controller mode"
+     },
+     "staleAfter": 900
+    }
+   }
+  }
+ },
+ "queries": [
+  {
+   "series": [
+    {
+     "name": "compressor",
+     "values": [
+      [
+       1768406400000,
+       0
+      ],
+      [
+       1768413600000,
+       1
+      ],
+      [
+       1768424400000,
+       0
+      ],
+      [
+       1768426200000,
+       1
+      ],
+      [
+       1768435140000,
+       1
+      ]
+     ]
+    },
+    {
+     "name": "fan",
+     "values": [
+      [
+       1768406400000,
+       1
+      ],
+      [
+       1768435140000,
+       1
+      ]
+     ]
+    },
+    {
+     "name": "heater",
+     "values": [
+      [
+       1768406400000,
+       0
+      ],
+      [
+       1768429800000,
+       1
+      ],
+      [
+       1768431600000,
+       0
+      ],
+      [
+       1768435140000,
+       0
+      ]
+     ]
+    },
+    {
+     "name": "mode",
+     "values": [
+      [
+       1768406400000,
+       1
+      ],
+      [
+       1768417200000,
+       2
+      ],
+      [
+       1768435140000,
+       2
+      ]
+     ]
+    }
+   ]
+  }
+ ]
+}
